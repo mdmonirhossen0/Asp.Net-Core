@@ -1,0 +1,70 @@
+﻿@model MasterDetailsCrudCore.ViewModel.VmSale
+@{
+    ViewBag.Title = "Index";
+    var ButtonValue = Model != null && Model.SaleId > 0 ? "Update" : "Add";
+    var listSaleDetail = ViewData["ListD"] as List<MasterDetailsCrudCore.Models.SaleDetail>;
+
+    var indexItem = 0;
+    var CreateDate = Model.CreateDate == null ? "" :
+    Convert.ToDateTime(Model.CreateDate).ToString("yyyy-MM-dd");
+}
+<form method="POST" data-ajax="true" data-ajax-method="POST" data-ajax-url="/Sales/Index" enctype="multipart/form-data">
+    @Html.HiddenFor(m => m.SaleId)
+    @Html.LabelFor(m => m.CreateDate)
+    <br />
+    <input type="date" id="CreateDate" name="CreateDate" value="@CreateDate" />
+    <br />
+    @Html.LabelFor(m => m.CustomerName)
+    <br />
+    @Html.TextBoxFor(m => m.CustomerName)
+    <br />
+    <div>
+        @Html.LabelFor(m => m.Gender)<br />
+        <div>
+            @Html.RadioButtonFor(m => m.Gender, "Male")
+            @Html.LabelFor(m => m.Gender, "Male")
+            @Html.RadioButtonFor(m => m.Gender, "Female")
+            @Html.LabelFor(m => m.Gender, "Female")
+        </div>
+    </div>
+@*     @Html.DropDownList("Selected", (IEnumerable<SelectListItem>)ViewData["Drop"],
+    (Model.ProductType.IsEmpty()) ? "Choose Product" : Model.ProductType) *@
+    <br />
+    <button type="submit">@ButtonValue</button>
+    <a href="/Sales/Index/">Reset</a>
+    <table border="1">
+        <tr>
+            <th>ProductName</th>
+            <th>Price</th>
+            <th><button type="button" onclick="addItem();">Add Product</button></th>
+        </tr>
+        <tbody id="tSD">
+            @foreach (var item in Model.SaleDetails)
+            {
+                <tr id="tr_@indexItem">
+                    <td>
+                        <input type="text" id="ProductName_@indexItem" name="ProductName" value="@item.ProductName" />
+                    </td>
+                    <td>
+                        <input type="number" id="Price_@indexItem" name="Price" value="@item.Price" />
+                    </td>
+                    <td><a href="javascript:void(0)" onclick="removeItem(@indexItem)">Remove</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <table border="1">
+        <tr>
+            <th>ProductName</th>
+            <th>Price</th>
+        </tr>
+        @foreach (var item in listSaleDetail)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.Price</td>
+            </tr>
+        }
+    </table>
+</form>

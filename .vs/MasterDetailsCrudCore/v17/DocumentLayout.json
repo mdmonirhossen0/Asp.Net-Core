@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|d:\\esad-c#\\asp.net core\\ajaxmasterdetailscrud\\masterdetailscrudcore\\masterdetailscrudcore\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|solutionrelative:masterdetailscrudcore\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|d:\\esad-c#\\asp.net core\\ajaxmasterdetailscrud\\masterdetailscrudcore\\masterdetailscrudcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|solutionrelative:masterdetailscrudcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|d:\\esad-c#\\asp.net core\\ajaxmasterdetailscrud\\masterdetailscrudcore\\masterdetailscrudcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|solutionrelative:masterdetailscrudcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|d:\\esad-c#\\asp.net core\\ajaxmasterdetailscrud\\masterdetailscrudcore\\masterdetailscrudcore\\views\\sales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|solutionrelative:masterdetailscrudcore\\views\\sales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|d:\\esad-c#\\asp.net core\\ajaxmasterdetailscrud\\masterdetailscrudcore\\masterdetailscrudcore\\views\\sales\\partialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|solutionrelative:masterdetailscrudcore\\views\\sales\\partialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|d:\\esad-c#\\asp.net core\\ajaxmasterdetailscrud\\masterdetailscrudcore\\masterdetailscrudcore\\models\\salemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|solutionrelative:masterdetailscrudcore\\models\\salemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|d:\\esad-c#\\asp.net core\\ajaxmasterdetailscrud\\masterdetailscrudcore\\masterdetailscrudcore\\viewmodel\\vmsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|solutionrelative:masterdetailscrudcore\\viewmodel\\vmsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|d:\\esad-c#\\asp.net core\\ajaxmasterdetailscrud\\masterdetailscrudcore\\masterdetailscrudcore\\masterdetailscrudcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|solutionrelative:masterdetailscrudcore\\masterdetailscrudcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|d:\\esad-c#\\asp.net core\\ajaxmasterdetailscrud\\masterdetailscrudcore\\masterdetailscrudcore\\migrations\\202311180559321_core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|solutionrelative:masterdetailscrudcore\\migrations\\202311180559321_core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|d:\\esad-c#\\asp.net core\\ajaxmasterdetailscrud\\masterdetailscrudcore\\masterdetailscrudcore\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|solutionrelative:masterdetailscrudcore\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|d:\\esad-c#\\asp.net core\\ajaxmasterdetailscrud\\masterdetailscrudcore\\masterdetailscrudcore\\models\\saledetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|solutionrelative:masterdetailscrudcore\\models\\saledetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|d:\\esad-c#\\asp.net core\\ajaxmasterdetailscrud\\masterdetailscrudcore\\masterdetailscrudcore\\models\\salesdbcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2691669F-A3D2-497B-9A35-FF2C40184D07}|MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj|solutionrelative:masterdetailscrudcore\\models\\salesdbcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\appsettings.json",
+              "RelativeDocumentMoniker": "MasterDetailsCrudCore\\appsettings.json",
+              "ToolTip": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\appsettings.json",
+              "RelativeToolTip": "MasterDetailsCrudCore\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-05T16:26:06.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Views\\Sales\\Index.cshtml",
+              "RelativeDocumentMoniker": "MasterDetailsCrudCore\\Views\\Sales\\Index.cshtml",
+              "ToolTip": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Views\\Sales\\Index.cshtml",
+              "RelativeToolTip": "MasterDetailsCrudCore\\Views\\Sales\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-20T14:58:48.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Program.cs",
+              "RelativeDocumentMoniker": "MasterDetailsCrudCore\\Program.cs",
+              "ToolTip": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Program.cs",
+              "RelativeToolTip": "MasterDetailsCrudCore\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T14:58:49.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PartialView.cshtml",
+              "DocumentMoniker": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Views\\Sales\\PartialView.cshtml",
+              "RelativeDocumentMoniker": "MasterDetailsCrudCore\\Views\\Sales\\PartialView.cshtml",
+              "ToolTip": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Views\\Sales\\PartialView.cshtml",
+              "RelativeToolTip": "MasterDetailsCrudCore\\Views\\Sales\\PartialView.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-20T14:58:49.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "MasterDetailsCrudCore\\Controllers\\SalesController.cs",
+              "ToolTip": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "MasterDetailsCrudCore\\Controllers\\SalesController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAowA8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T14:58:49.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MasterDetailsCrudCore.csproj",
+              "DocumentMoniker": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj",
+              "RelativeDocumentMoniker": "MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj",
+              "ToolTip": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj",
+              "RelativeToolTip": "MasterDetailsCrudCore\\MasterDetailsCrudCore.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-11-20T14:58:49.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "202311180559321_core.cs",
+              "DocumentMoniker": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Migrations\\202311180559321_core.cs",
+              "RelativeDocumentMoniker": "MasterDetailsCrudCore\\Migrations\\202311180559321_core.cs",
+              "ToolTip": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Migrations\\202311180559321_core.cs",
+              "RelativeToolTip": "MasterDetailsCrudCore\\Migrations\\202311180559321_core.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T14:58:49.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "MasterDetailsCrudCore\\Migrations\\Configuration.cs",
+              "ToolTip": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "MasterDetailsCrudCore\\Migrations\\Configuration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T14:58:49.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SalesDBCore.cs",
+              "DocumentMoniker": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Models\\SalesDBCore.cs",
+              "RelativeDocumentMoniker": "MasterDetailsCrudCore\\Models\\SalesDBCore.cs",
+              "ToolTip": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Models\\SalesDBCore.cs",
+              "RelativeToolTip": "MasterDetailsCrudCore\\Models\\SalesDBCore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T14:58:49.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SaleDetail.cs",
+              "DocumentMoniker": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Models\\SaleDetail.cs",
+              "RelativeDocumentMoniker": "MasterDetailsCrudCore\\Models\\SaleDetail.cs",
+              "ToolTip": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Models\\SaleDetail.cs",
+              "RelativeToolTip": "MasterDetailsCrudCore\\Models\\SaleDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T14:58:49.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SaleMaster.cs",
+              "DocumentMoniker": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Models\\SaleMaster.cs",
+              "RelativeDocumentMoniker": "MasterDetailsCrudCore\\Models\\SaleMaster.cs",
+              "ToolTip": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\Models\\SaleMaster.cs",
+              "RelativeToolTip": "MasterDetailsCrudCore\\Models\\SaleMaster.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T14:58:49.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VmSale.cs",
+              "DocumentMoniker": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\ViewModel\\VmSale.cs",
+              "RelativeDocumentMoniker": "MasterDetailsCrudCore\\ViewModel\\VmSale.cs",
+              "ToolTip": "D:\\ESAD-C#\\ASP.NET Core\\AjaxMasterDetailsCrud\\MasterDetailsCrudCore\\MasterDetailsCrudCore\\ViewModel\\VmSale.cs",
+              "RelativeToolTip": "MasterDetailsCrudCore\\ViewModel\\VmSale.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwBIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T14:58:49.278Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

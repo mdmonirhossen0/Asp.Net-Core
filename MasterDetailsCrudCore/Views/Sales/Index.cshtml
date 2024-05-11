@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Index";
+    var listSaleMaster = ViewData["List"] as List<MasterDetailsCrudCore.Models.SaleMaster>;
+    var indexItem = 0;
+}
+<h2>Single Page Application</h2>
+<partial name="PartialView" />
+<table border="1">
+    <tr>
+        <th>CreateDate</th>
+        <th>CustomerName</th>
+        <th>Gender</th>
+        <th>ProductType</th>
+    </tr>
+    @foreach (var item in listSaleMaster)
+    {
+        <tr>
+            <td>@item.CreateDate</td>
+            <td>@item.CustomerName</td>
+            <td>@item.Gender</td>
+            <td>@item.ProductType</td>
+            <td><a href="/Sales/Index?id=@item.SaleId">Edit</a></td>
+            <td><a href="/Sales/IndexDelete?id=@item.SaleId">Delete</a></td>
+        </tr>
+    }
+</table>
+<script>
+    indexItem = @indexItem;
+    function addItem() {
+        indexItem += 1;
+        var js = `<tr id="tr_${indexItem}">
+        <td><input type="text" id="ProductName_1" name="ProductName" value=""/></td>
+        <td><input type="number" id="Price_1" name="Price" value=""/></td>
+        <td><a href="javascript:void(0)" onclick="removeItem(${indexItem})">Remove</a></td>
+        </tr>`
+        document.getElementById("tSD").innerHTML += js;
+    }
+    function removeItem(id) {
+        document.getElementById("tr_" + id).remove();
+    }
+</script>
